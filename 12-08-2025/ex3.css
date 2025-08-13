@@ -1,0 +1,14 @@
+.container{
+    border: 5px solid black;
+}
+
+
+.class1{
+    border: 5px solid blue;
+    margin-top: 140px ;
+    margin-left: 60px;
+}
+.class2{
+    border: 15px solid red;
+    margin: 400px 50px 40px 30px ;
+}
