@@ -1,0 +1,16 @@
+*{
+    color: blue;
+    background-color:black;
+}
+#id1{
+    text-align: left;
+    color: red;
+}
+.class1{
+   font-size: 50px;
+   color: aqua;
+
+}
+h1,p,div{
+    font-family: Arial, sans-serif;
+}

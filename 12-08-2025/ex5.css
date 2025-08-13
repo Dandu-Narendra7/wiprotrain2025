@@ -1,0 +1,9 @@
+.container{
+    border: 5px solid black;
+}
+.class1{
+    padding: 20px 30px 40px 30px;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
