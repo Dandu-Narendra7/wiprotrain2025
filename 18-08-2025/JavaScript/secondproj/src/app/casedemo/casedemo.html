@@ -1,0 +1,26 @@
+<p>casedemo works!</p>
+<div>
+<label for="color">choose a color:</label>
+<select id="color"  name="color"  [(ngModel)]="color" >
+    <option value="orange">Orange</option>
+    <option value="green">Green</option>
+    <option value="red">Red</option>
+    <option value="blue">blue</option>    
+</select>
+@switch (color) {
+    @case ('red') {
+    <p style="color:red">red color</p>
+}
+ @case ('blue') {
+    <p style="color:blue">blue color</p>
+}
+
+ @case ('orange') {
+    <p style="color:orange">orange color</p>
+}
+@case ('green') {
+    <p style="color:green">Green color
+    </p>
+}
+}
+    </div>

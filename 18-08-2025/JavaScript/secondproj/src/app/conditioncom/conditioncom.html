@@ -1,0 +1,20 @@
+<!-- <p>conditioncom works!</p>
+@if(flag){
+    <p>message is true</p>
+}@else {
+    <p>message is false</p>
+}
+
+<label for="">
+    <input type="checkbox"  (click)="message()">
+</label> -->
+<button (click)="loadCountries()">Load</button>
+<select name="" id="">
+    <option value="">country</option>
+    @for (countries of countries; track countries)
+          {
+    }
+    <option [value]="countries">
+        <li>{{countries}}</li></option>
+   
+</select>

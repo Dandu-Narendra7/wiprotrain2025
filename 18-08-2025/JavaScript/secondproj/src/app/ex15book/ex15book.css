@@ -1,0 +1,19 @@
+.book-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.book-card {
+  width: calc(20% - 16px); 
+  border: 1px solid #ccc;
+  padding: 8px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.book-card img {
+  width: 100%;
+  height: auto;
+}
