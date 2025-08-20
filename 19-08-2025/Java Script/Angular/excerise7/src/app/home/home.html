@@ -1,0 +1,5 @@
+
+<div *ngFor="let fruits of fruits; let i = index">
+  <app-fruits [fruits]="fruits" (btnClick)="remove(fruits.name)"></app-fruits>
+</div>
+
