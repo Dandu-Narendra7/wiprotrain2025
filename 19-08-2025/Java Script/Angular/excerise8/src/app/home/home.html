@@ -1,0 +1,11 @@
+<p>home works!</p>
+
+<input type="text" [(ngModel)]="newDescription" placeholder="Task description" >
+<select >
+    <option value="work">Work</option>
+    <option value="study">Study</option>
+    <option value="excerise">Excerise</option>
+</select>
+<button (click)="addTask()" >Add Task</button>
+<app-task-list [tasks]="tasks" (remove)="deleteTask($event)"></app-task-list>
+

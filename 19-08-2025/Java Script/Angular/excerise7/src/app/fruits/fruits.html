@@ -1,0 +1,8 @@
+<p>fruits works!</p>
+<div class="fruit-card">
+  <img [src]="fruits.image" alt="{{ fruits.name }}" width="100" height="100">
+  <h3>{{ fruits.name }} - ₹{{ fruits.price }}</h3>
+  <p>{{ fruits.description }}</p>
+  <button (click)="onClick(fruits.name)">Remove</button>
+</div>
+
