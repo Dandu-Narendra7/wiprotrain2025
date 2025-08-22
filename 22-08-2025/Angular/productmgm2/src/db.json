@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": "2389e",
+      "name": "Ear Phones",
+      "category": "Electronics",
+      "price": 200
+    },
+    {
+      "id": "y7u",
+      "name": "IQZ7",
+      "category": "Mobile",
+      "price": 25000
+    },
+    {
+      "id": "456r",
+      "name": "SG cricket bat",
+      "category": "Sports",
+      "price": 2000
+    }
+  ]
+}

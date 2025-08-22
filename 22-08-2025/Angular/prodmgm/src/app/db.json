@@ -1,0 +1,19 @@
+{
+    "products":[{
+            "id":"56s",
+            "name":"Mobile",
+            "category":"electronics",
+            "price":18000
+    },{
+        "id":"56s",
+            "name":"SG Cricket Bat",
+            "category":"Sports",
+            "price":4500
+
+    }
+]
+        
+           
+
+      
+}

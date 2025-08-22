@@ -1,0 +1,17 @@
+<p>productadd works!</p>
+<form>
+<div>
+    <label for="name">Name:</label>
+    <input id="name" name="productName" [(ngModel)]="productName"   type="text">
+  </div>
+  <div>
+    <label for="category">product category :</label>
+    <input id="category" name="productCategory" [(ngModel)]="productcategory"   type="text">
+  </div>
+  <div>
+    <label for="price">price:</label>
+    <input type="number" name="Price" [(ngModel)]="productprice"  type="number">
+  </div>
+  
+  <button (click)="submit()">Submit</button>
+</form>
