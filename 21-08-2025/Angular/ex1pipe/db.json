@@ -1,0 +1,17 @@
+{
+    "vehicle":[{
+        "id":1,
+        "make":"mahindera",
+        "fueltype":"diesel",
+        "model":"thar",
+        "price":500000
+    },{
+        "id":2,
+        "make":"passion pro",
+        "fueltype":"petrol",
+        "model":"bike",
+        "price":125000
+    }
+]
+
+}

@@ -1,0 +1,14 @@
+<div class="product-list">
+  <button (click)="addproduct()" >Add  product </button>
+@for (product of Product; track $index) {
+      <div class="product-info">
+      <h3 class="product-name">{{ product.id }}</h3>
+      <h3 class="product-name">{{ product.name }}</h3>
+      <p class="product-category">{{ product.category }}</p>
+      <p class="product-price">{{ product.price }}</p>
+      <a [routerLink]="['/productedit/',product.id]">Edit</a>
+      <a [routerLink]="['/productdelete/',product.id]">Delete</a>
+    </div>
+  }
+  </div>
+
