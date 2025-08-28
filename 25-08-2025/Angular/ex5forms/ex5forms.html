@@ -1,0 +1,48 @@
+<p>ex5forms works!</p>
+<form [formGroup]="fg" (ngSubmit)="onSubmit()">
+
+  <div>
+    <input type="text" formControlName="fName" placeholder="First Name" />
+
+    @if (fg.controls['fName'].invalid && (fg.controls['fName'].touched || fg.controls['fName'].dirty)) {
+      @if (fg.controls['fName'].errors?.['required']) {
+        <span>First Name is required</span>
+      }
+    }
+  </div>
+   <div>
+    <input type="text" formControlName="email" placeholder="Email" />
+
+    @if (fg.controls['email'].invalid && (fg.controls['email'].touched || fg.controls['email'].dirty)) {
+      @if (fg.controls['email'].errors?.['required']) {
+        <span>Email is required</span>
+      }
+      @if (fg.controls['email'].errors?.['email']) {
+        <span >Invalid email format</span>
+      }
+    }
+  </div>
+
+ 
+ <div>
+    <input type="date" formControlName="dob" placeholder="Date of Birth" />
+
+    @if (fg.controls['dob'].invalid && (fg.controls['dob'].touched || fg.controls['dob'].dirty)) {
+      @if (fg.controls['dob'].errors?.['required']) {
+        <span>Date of Birth is required</span>
+      }
+    }
+  </div>
+  <div>
+    <input type="text" formControlName="subjects" placeholder="Subjects" />
+
+    @if (fg.controls['subjects'].invalid && (fg.controls['subjects'].touched || fg.controls['subjects'].dirty)) {
+      @if (fg.controls['subjects'].errors?.['required']) {
+        <span >Subjects are required</span>
+      }
+    }
+  </div>
+  <div>
+    <button type="submit" [disabled]="fg.invalid">Save</button>
+  </div>
+</form>
